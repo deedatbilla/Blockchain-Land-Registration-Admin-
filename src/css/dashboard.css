@@ -1,0 +1,323 @@
+.search-box{
+    position: relative;
+    top:62px;
+    left:130px;
+    transform: translate(-50%,-50%);
+    background:#D3D3D3;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+#information{
+    position: relative;
+    top:-25px;
+}
+.mysearch-btn{
+    color: #9400D3;
+}
+
+   
+   .card1{
+    position: relative;
+    left: 470px;
+    top:190px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(63, 63, 68, 0.1);
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+
+.card1 .header {
+    padding: 15px 15px 0;
+}
+
+.card1 .image img {
+    width: 100%;
+}
+
+.card1 .filter {
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.68);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.card1 .filter .btn {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.card1:hover .filter {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+#passwordbutton{
+    position: relative;
+    left:-180px;
+    top:-10px;
+    background-color: #000080;
+    color: white;
+    border-radius: 7px;
+    font-size: 16px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 150px;
+    height: 35px;
+    background-color: #000080;
+    border-radius: 7px;
+  
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+
+
+}
+
+.card1 .btn-hover {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.card1:hover .btn-hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.card1 .content {
+    position: relative;
+    left:35px;
+    padding: 15px 15px 10px 15px;
+}
+
+.card1 .header {
+    padding: 15px 15px 0;
+}
+
+.card1 .category,
+.card1  label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9A9A9A;
+    margin-bottom: 0px;
+}
+
+.card1 .category i,
+.card1 label i {
+    font-size: 16px;
+}
+
+.card1 label {
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.card1 .title {
+    position: relative;
+    left:110px;
+    margin: 0;
+    color: #333333;
+    font-weight: 300;
+}
+
+.card1 .avatar {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.card1 .description {
+    font-size: 14px;
+    color: #333;
+}
+
+.card1 .footer {
+    padding: 0;
+    background-color: transparent;
+    line-height: 30px;
+}
+
+  
+
+   
+.footer1 {
+    background-color: #FFFFFF;
+    line-height: 20px;
+    position: relative;
+    top: 290px;
+}
+
+.footer1 nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+.footer1 nav > ul a:not(.btn) {
+    color: #9A9A9A;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.footer1 nav > ul a:not(.btn):hover, .footer1 nav > ul a:not(.btn):focus {
+    color: #777777;
+}
+
+.footer1 .social-area {
+    padding: 15px 0;
+}
+
+.footer1 .social-area h5 {
+    padding-bottom: 15px;
+}
+
+.footer1 .social-area > a:not(.btn) {
+    color: #9A9A9A;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 5px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 20px;
+    text-align: center;
+}
+
+.footer1 .social-area > a:not(.btn):hover, .footer1 .social-area > a:not(.btn):focus {
+    color: #777777;
+}
+
+.footer1 .copyright {
+    color: #777777;
+    padding: 10px 15px;
+    margin: 10px 3px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.footer1 hr {
+    border-color: #DDDDDD;
+}
+
+.footer1 .title {
+    color: #777777;
+}
+
+.footer1-default {
+    background-color: #F5F5F5;
+}
+
+.footer1:not(.footer1-big) nav > ul {
+    font-size: 14px;
+}
+
+.footer1:not(.footer1-big) nav > ul li {
+    margin-left: 20px;
+    float: left;
+}
+
+.footer1:not(.footer1-big) nav > ul a {
+    padding: 10px 0px;
+    margin: 10px 10px 10px 0px;
+}
+.search-text{
+    border: none;
+    background: none;
+    outline:none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    width:240px;
+}
+ button[type=button]{
+    background: #9400D3;
+    border-radius: 50px;
+    color:white;
+    width:100px;
+}
+.modal-title{
+    position: relative;
+    left: 350px;
+    color: #9400D3;
+}
+ 
+#closebtn{
+    
+    color:white;
+    width:100px;
+}
+#senderkey,#rep-key,#trans-sig{
+    width: 860px;
+}
+#myicon, #myicon2, #myicon3{
+    color:green;
+    float:right;
+    top:-25px;
+    right:-10px;
+}
+#removeicon, #removeicon2,#removeicon3{
+    color:red;
+    float:right;
+    top:-25px;
+    right:-10px;
+}
+#close{
+    color: red;
+    width: 30px;
+    height: 20px;
+
+}
+#val_button{
+    position: relative;
+    background-color: #3CB371;
+    width:80px;
+    color: white;
+    right: 40px;
+}
+#modal-button{
+    position: relative;
+    background-color:  #9400D3;
+    width: 80px;
+    color:white;
+    right:8px;
+}
+#modal-button:disabled,
+#modal-button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+.error,.ferror,.lerror,.cnerror,.coerror,.aerror,.aberror,.newpassworderror,.codeerror
+{
+    visibility: hidden;
+}
+
+.error_show
+{
+    visibility: visible;
+    color:red;
+  
+
+}
